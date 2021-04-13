@@ -1,0 +1,16 @@
+{
+  "name": "nixdash",
+  "version": "1.0.0",
+  "description": "nix lodash from your project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "lodash",
+    "react-native"
+  ],
+  "author": "garrepi",
+  "license": "MIT"
+}
