@@ -5,9 +5,9 @@ nixdash searches for all instances of lodash throughout a project and replaces t
 
 ### Rules
 
-
-| lodash | native |
 ---
+| lodash | native |
+| ---- | ------ |
 | _.get(a, b) | a?.b |
 | _.find( | .find( |
 | _.filter( | .filter( |
@@ -15,22 +15,22 @@ nixdash searches for all instances of lodash throughout a project and replaces t
 | _.each( | .forEach |
 | _.map( | .map |
 | _.set( | = sign |
-| _.isString(
-| _.sortBy( 
-| _.keys( | Object.keys
-| _.isEqual(
-| _.findIndex( | .findIndex
-| _.orderBy(
-| _.includes(
-| _.compact(
-| _.range(
-| _.isFunction(
-| _.first(
-| _.remove(
-| _.omit(
-| _.maxBy(
-| _.cloneDeep(
-| _.uniqBy(
-| _.sum(
-| _.reduce(
-| _.mergeWith(
+| _.isString( | |
+| _.sortBy( | |
+| _.keys( | Object.keys |
+| _.isEqual( | |
+| _.findIndex( | .findIndex |
+| _.orderBy( | |
+| _.includes( | | 
+| _.compact(| |
+| _.range(| |
+| _.isFunction(| |
+| _.first(| |
+| _.remove(| |
+| _.omit(| |
+| _.maxBy(| |
+| _.cloneDeep(| |
+| _.uniqBy(| |
+| _.sum(| |
+| _.reduce(| |
+| _.mergeWith(| |
